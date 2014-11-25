@@ -1,0 +1,52 @@
+//URL variable
+//-----------------------------
+// $base-img-url: '/images' !default;
+
+// Primary colors
+// -------------------------
+$SkyBlue:               #87CEEB          !default;
+$LemonChiffon:          rgb(255,250,205) !default;
+$MediumSeaGreen:        rgb(60,179,113)  !default;
+$whitesmoke:            rgb(245,245,245) !default;
+$MediumOrchid:          #ba55d3          !default;
+$white;                 rgb(0,0,0)       !default;
+$gray;                  rgb(128,128,128) !default;
+
+
+// Derivative colors
+// -------------------------
+$darker-MediumOrchid:           darken($MediumOrchid, 6.6667%) !default;
+
+//Color palette
+//-----------------------
+$color1: $SkyBlue;
+$color2: $LemonChiffon;
+$color3: $MediumSeaGreen;
+$color4: $whitesmoke;
+$color5: $MediumOrchid;
+$color6: $white;
+$color7: $gray;
+
+
+//Font information
+//-----------------------
+$header-font-family: "Georgia", "Times New Roman", serif !default;
+$default-font-family: "HelveticaNeue", "Helvetica Neue", Helvetica,
+Arial, sans-serif !default;
+$default-browser-size: 16 !default;
+$default-font-size: 14px !default;
+$font-color:    $darker-gray;
+$anchor-color: $darker-gray;
+
+//Z-index variable
+//-----------------------------
+// $starting-zindex: 1000 !default;
+// $zindex-modal-backdrop: $starting-zindex * 3 !default;
+// $zindex-modal: $zindex-modal-backdrop + 1 !default;
+
+//Responsive
+//-----------------------------
+$large-screen-min-width: 480px !default;
+//dpi check
+$retina-min-dpi 192dpi !default;
+
