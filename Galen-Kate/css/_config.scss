@@ -1,6 +1,3 @@
-//URL variable
-//-----------------------------
-// $base-img-url: '/images' !default;
 
 // Primary colors
 // -------------------------
@@ -31,19 +28,8 @@ $color7: $gray;
 
 //Font information
 //-----------------------
-$header-font-family: "Georgia", "Times New Roman", serif !default;
-$default-font-family: "HelveticaNeue", "Helvetica Neue", Helvetica,
-Arial, sans-serif !default;
-$default-browser-size: 16 !default;
-$default-font-size: 14px !default;
-$font-color:    $darker-gray;
-$anchor-color: $darker-gray;
-
-//Z-index variable
-//-----------------------------
-// $starting-zindex: 1000 !default;
-// $zindex-modal-backdrop: $starting-zindex * 3 !default;
-// $zindex-modal: $zindex-modal-backdrop + 1 !default;
+$header-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !default;
+$header-font-size: 1.25 em !default;
 
 //Responsive
 //-----------------------------
