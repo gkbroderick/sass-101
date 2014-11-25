@@ -1,0 +1,75 @@
+/*Flex*/
+
+.main-nav {
+  padding: 1.5% 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -webkit-align-items: baseline;
+  -webkit-align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: center;
+}
+
+.main-nav__item {
+  padding: 1% 1.5%;
+  -webkit-flex: 0, 1, auto;
+  -webkit-align-self: auto;
+  flex: 0, 1, auto;
+  align-self: auto;
+}
+
+/*Responsive Grid - Dividers*/
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 0%;
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+/*Spans - Progressive Enhancement Version*/
+
+.span_3_of_3,
+.span_2_of_3,
+.span_1_of_3,
+.span_4_of_4,
+.span_3_of_4,
+.span_2_of_4,
+.span_1_of_4 {
+  width: 100%;
+}
+
+/* clearing */
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}

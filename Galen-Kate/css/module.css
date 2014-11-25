@@ -1,0 +1,188 @@
+.headline-subhead {
+  text-align: center;
+  padding-bottom: 1.5em;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  color: gray;
+}
+
+/* nav */
+
+.main-nav__item a {
+  text-align: center;
+  padding: 0.2em;
+  color: white;
+  font-size: 1.5em;
+  border-radius: .3em;
+}
+
+.main-nav__item a:hover {
+  background-color: MediumOrchid;
+}
+
+/* hero */
+
+.hero {
+  color: white;
+  text-align: center;
+  padding: 5% 0;
+  margin-bottom: 4.5em;
+}
+
+.hero__title {
+  font-size: 5em;
+}
+
+.hero__text {
+  font-size: 1em;
+  line-height: 1.5em;
+  max-width: 38em;
+  margin: auto;
+}
+
+/* feature */
+
+.feature {
+  text-align: center;
+  display: block;
+  padding-bottom: 4.5em;
+}
+
+.feature__box {
+  padding: 3%;
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.feature__box h1 {
+  font-size: 1.3em;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: bold;
+  color: MediumOrchid;
+}
+
+.feature__box h2 {
+  margin: 0.4em auto;
+}
+
+/* form section */
+
+.field-with-button{
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}
+
+.input-field {
+  margin-top: 1.25em;
+  font-size: 1.25em;
+  padding: .125em;
+}
+
+.search-button{
+  font-size: 1em;
+}
+
+/* profile section */
+
+.profile {
+  color: gray;
+  padding-bottom: 1.5em;
+}
+
+.profile figcaption {
+  margin-top: .1875em;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.profile img {
+  margin: 0 auto;
+  max-width: 12.5em;
+}
+
+/*footer*/
+
+.citation {
+  padding: 1.5em 0 4em 0;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.citation p:first-of-type {
+  padding-top: 0.8em;
+}
+
+/*Vector Images*/
+
+.vectorImage {
+  margin: 0.6em 0 -0.6em 0;
+}
+
+.windowIconRear,
+.windowIconFront,
+.arrowIcon-1,
+.arrowIcon-2 {
+  fill: white;
+}
+
+.bellIconOutline,
+.windowIconFront:hover,
+.arrowIcon-1:hover {
+  fill: MediumOrchid;
+}
+
+.arrowIcon-2:hover {
+  fill: MediumSeaGreen;
+}
+
+.bellIconFill {
+  fill: LemonChiffon;
+}
+
+.windowIconRear:hover,
+.bellIconFill:hover {
+  fill: SkyBlue;
+}
+
+/*Images*/
+
+.profGreen {
+  content: url('../img/professor_green_1x.jpg');
+}
+
+.profDavis {
+  content: url('../img/professor_davis_1x.jpg');
+}
+
+.profSmith {
+  content: url('../img/professor_smith_1x.jpg');
+}
+
+.profKeller {
+  content: url('../img/professor_keller_1x.jpg');
+}
+
+/* Color */
+
+.color1 {
+  background-color: SkyBlue;
+}
+
+.color2 {
+  background-color: LemonChiffon;
+  color: gray;
+}
+
+.color3 {
+  background-color: MediumSeaGreen;
+}
+
+.color4 {
+  background-color: whitesmoke;
+}
+
+.color5 {
+  background-color: MediumOrchid;
+}
