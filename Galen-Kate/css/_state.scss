@@ -1,0 +1,29 @@
+@media (max-width : $large-screen-min-width) {
+  .col {
+    margin: 1% 0 1% 0;
+  }
+  .span_3_of_3,
+  .span_2_of_3,
+  .span_1_of_3,
+  .span_4_of_4,
+  .span_3_of_4,
+  .span_2_of_4,
+  .span_1_of_4 {
+    width: 100%;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: $retina-min-dpi) {
+  .profGreen {
+    content: url('../img/professor_green_2x.jpg');
+  }
+  .profDavis {
+    content: url('../img/professor_davis_2x.jpg');
+  }
+  .profSmith {
+    content: url('../img/professor_smith_2x.jpg');
+  }
+  .profKeller {
+    content: url('../img/professor_keller_2x.jpg');
+  }
+}
