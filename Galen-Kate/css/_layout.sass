@@ -7,7 +7,7 @@
 
 .col
   display: block
-  float:left
+  float: left
   margin: 1% 0 1% 0%
   &:first-child
     margin-left: 0
@@ -26,8 +26,10 @@
 
 .span_1_of_3
   width: 100%
-  @media (min-width: $large-screen-min-width)
+  background-color: black
+  @media screen and (min-width: 480 px)
     width: 32.26%
+    background-color: white
 
 .span_3_of_4
   width: 100%
@@ -41,7 +43,7 @@
 
 .span_1_of_4
   width: 100%
-  @media (min-width: $large-screen-min-width)
+  @media screen and (min-width: $large-screen-min-width)
     width: 23.8%
 
 
