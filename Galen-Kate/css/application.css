@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/* Meyer's Reset
+ *http://meyerweb.com/eric/tools/css/reset/
+ *   v2.0 | 20110126
+ *   License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-size: 1em;
+  line-height: 1; }
+
+button {
+  background-color: #ba55d3;
+  font-size: 1.25 em;
+  color: black; }
+
+img {
+  display: block;
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  color: #ba55d3; }
+  a:hover, a:visited {
+    color: #af3acc; }
+
+/*Responsive Grid - Dividers */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px; }
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0.5% 1% 0.5%; }
+  .col:first-child {
+    margin-left: 0; }
+
+/*Spans - Progressive Enhancement Version */
+.span_3_of_3,
+.span_4_of_4 {
+  width: 100%; }
+
+.span_2_of_3 {
+  width: 66.13%; }
+
+.span_1_of_3 {
+  width: 32.26%; }
+
+.span_3_of_4 {
+  width: 49.2%; }
+
+.span_2_of_4 {
+  width: 49.2%; }
+
+.span_1_of_4 {
+  width: 23.8%; }
+
+/* clearing */
+.clearfix {
+  zoom: 1; }
+  .clearfix:before {
+    content: " ";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0; }
+  .clearfix:after {
+    clear: both; }
+
+.profGreen {
+  content: url("../img/professor_green_1x.jpg"); }
+
+.profDavis {
+  content: url("../img/professor_davis_1x.jpg"); }
+
+.profSmith {
+  content: url("../img/professor_smith_1x.jpg"); }
+
+.profKeller {
+  content: url("../img/professor_keller_1x.jpg"); }
+
+.headline-subhead {
+  text-align: center;
+  padding-bottom: 1.5em;
+  text-transform: uppercase;
+  font-size: 1.25 em;
+  color: gray; }
+
+/* nav */
+.main-nav__item a {
+  text-align: center;
+  padding: 0.2em;
+  color: black;
+  font-size: 1.5em;
+  border-radius: 0.3em; }
+  .main-nav__item a:hover {
+    background-color: #ba55d3; }
+
+/* hero */
+.hero {
+  color: black;
+  text-align: center;
+  padding: 5% 0;
+  margin-bottom: 4.5em; }
+  .hero h1 {
+    font-size: 5em; }
+  .hero p {
+    font-size: 1em;
+    line-height: 1.5em;
+    max-width: 38em;
+    margin: auto; }
+
+/* feature */
+.feature {
+  text-align: center;
+  display: block;
+  padding-bottom: 4.5em; }
+
+.feature__box {
+  padding: 3%;
+  color: black;
+  display: inline-block;
+  font-size: 1em; }
+  .feature__box h1 {
+    font-size: 1.25 em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    color: #ba55d3; }
+  .feature__box h2 {
+    margin: 0.4em auto; }
+
+/* form section */
+.field-with-button {
+  text-align: center;
+  display: block;
+  cursor: pointer; }
+
+.input-field {
+  margin-top: 1.25em;
+  font-size: 1.25 em;
+  padding: 0.125em; }
+
+.search-button {
+  font-size: 1em; }
+
+/* profile section */
+.profile {
+  color: gray;
+  padding-bottom: 1.5em; }
+  .profile figcaption {
+    margin-top: 0.1875em;
+    line-height: 1.5em;
+    font-weight: bold; }
+  .profile img {
+    margin: 0 auto;
+    max-width: 12.5em; }
+
+/*footer */
+.citation {
+  padding: 1.5em 0 4em 0;
+  text-align: center;
+  font-size: 0.8em; }
+  .citation p:first-of-type {
+    padding-top: 0.8em; }
+
+/*Vector Images */
+.vectorImage {
+  margin: 0.6em 0 -0.6em 0; }
+
+.windowIconFront {
+  fill: black; }
+  .windowIconFront:hover {
+    fill: #ba55d3; }
+
+.windowIconRear {
+  fill: black; }
+  .windowIconRear:hover {
+    fill: #87CEEB; }
+
+.arrowIcon-1 {
+  fill: black; }
+  .arrowIcon-1:hover {
+    fill: #ba55d3; }
+
+.arrowIcon-2 {
+  fill: black; }
+  .arrowIcon-2:hover {
+    fill: mediumseagreen; }
+
+.bellIconOutline {
+  fill: #ba55d3; }
+
+.bellIconFill {
+  fill: lemonchiffon; }
+  .bellIconFill:hover {
+    fill: #87CEEB; }
+
+/* Color */
+.color1 {
+  background-color: #87CEEB; }
+
+.color2 {
+  background-color: lemonchiffon;
+  color: gray; }
+
+.color3 {
+  background-color: mediumseagreen; }
+
+.color4 {
+  background-color: whitesmoke; }
+
+.color5 {
+  background-color: #ba55d3; }
+
+/*Flex */
+.main-nav {
+  padding: 1.5% 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -webkit-align-items: baseline;
+  -webkit-align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: center; }
+
+.main-nav__item {
+  padding: 1% 1.5%;
+  -webkit-flex: 0, 1, auto;
+  -webkit-align-self: auto;
+  flex: 0, 1, auto;
+  align-self: auto; }
+
+@media (max-width: 30em) {
+  .col {
+    margin: 1% 0 1% 0; }
+
+  .span_3_of_3,
+  .span_2_of_3,
+  .span_1_of_3,
+  .span_4_of_4,
+  .span_3_of_4,
+  .span_2_of_4,
+  .span_1_of_4 {
+    width: 100%; } }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .profGreen {
+    content: url("../img/professor_green_2x.jpg"); }
+
+  .profDavis {
+    content: url("../img/professor_davis_2x.jpg"); }
+
+  .profSmith {
+    content: url("../img/professor_smith_2x.jpg"); }
+
+  .profKeller {
+    content: url("../img/professor_keller_2x.jpg"); } }
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?8fdye");
+  src: url("fonts/icomoon.eot?#iefix8fdye") format("embedded-opentype"), url("fonts/icomoon.woff?8fdye") format("woff"), url("fonts/icomoon.ttf?8fdye") format("truetype"), url("fonts/icomoon.svg?8fdye#icomoon") format("svg"); }
+.icon-search:after, .icon-test:after {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.icon-search:after {
+  content: ""; }
+
+.icon-test:after {
+  content: ""; }
+
+/*# sourceMappingURL=application.css.map */
