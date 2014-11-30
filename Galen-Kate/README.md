@@ -3,3 +3,8 @@
 ---
 For Code Fellow's UX/Front End Accelerator.
 Images from [morguefile.com](morguefile.com)
+
+
+###Ruby Sass Compile from the Terminal
+
+`sass --watch sass/:css/`
