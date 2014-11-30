@@ -1,4 +1,3 @@
-
 // Primary colors
 // -------------------------
 $SkyBlue:               #87CEEB          !default;
@@ -10,10 +9,6 @@ $white:                 rgb(0,0,0)       !default;
 $gray:                  rgb(128,128,128) !default;
 
 
-// Derivative colors
-// -------------------------
-$darker-MediumOrchid:           darken($MediumOrchid, 6.6667%) !default;
-
 //Color palette
 //-----------------------
 $color1: $SkyBlue;
@@ -21,15 +16,20 @@ $color2: $LemonChiffon;
 $color3: $MediumSeaGreen;
 $color4: $whitesmoke;
 $color5: $MediumOrchid;
-$darker-color5: $darker-MediumOrchid;
 $color6: $white;
 $color7: $gray;
+
+
+// Derivative colors
+// -------------------------
+$darker-color5:           darken($color5, 6.6667%) !default;
 
 
 //Font information
 //-----------------------
 $header-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !default;
 $header-font-size: 1.25 em !default;
+
 
 //Responsive
 //-----------------------------
