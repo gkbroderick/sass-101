@@ -150,7 +150,7 @@ a {
   padding-bottom: 1.5em;
   text-transform: uppercase;
   font-size: 1.25em;
-  color: gray; }
+  color: #999999; }
 
 /* nav */
 .main-nav__item a {
@@ -211,7 +211,7 @@ a {
 
 /* profile section */
 .profile {
-  color: gray; }
+  color: #999999; }
   .profile figcaption {
     margin-top: 0.1875em;
     line-height: 1.5em;
@@ -222,7 +222,7 @@ a {
 
 /*footer */
 .citation {
-  background-color: whitesmoke;
+  background-color: #F5F5F5;
   padding: 1.5em 0 4em 0;
   text-align: center;
   font-size: 0.8em; }
@@ -251,13 +251,13 @@ a {
 .arrowIcon-2 {
   fill: #FFFFFF; }
   .arrowIcon-2:hover {
-    fill: mediumseagreen; }
+    fill: #3CB371; }
 
 .bellIconOutline {
   fill: #ba55d3; }
 
 .bellIconFill {
-  fill: lemonchiffon; }
+  fill: #FFFACD; }
   .bellIconFill:hover {
     fill: #87CEEB; }
 
@@ -266,14 +266,14 @@ a {
   background-color: #87CEEB; }
 
 .color2 {
-  background-color: lemonchiffon;
-  color: gray; }
+  background-color: #FFFACD;
+  color: #999999; }
 
 .color3 {
-  background-color: mediumseagreen; }
+  background-color: #3CB371; }
 
 .color4 {
-  background-color: whitesmoke; }
+  background-color: #F5F5F5; }
 
 .color5 {
   background-color: #ba55d3; }

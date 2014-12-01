@@ -1,12 +1,11 @@
 // Primary colors
 // -------------------------
 $SkyBlue:               #87CEEB          !default;
-$LemonChiffon:          rgb(255,250,205) !default;
-$MediumSeaGreen:        rgb(60,179,113)  !default;
-$whitesmoke:            rgb(245,245,245) !default;
+$LemonChiffon:          #FFFACD          !default;
+$MediumSeaGreen:        #3CB371          !default;
+$whitesmoke:            #F5F5F5          !default;
 $MediumOrchid:          #ba55d3          !default;
-$white:                 #FFFFFF         !default;
-$gray:                  rgb(128,128,128) !default;
+$white:                 #FFFFFF          !default;
 
 
 //Color palette
@@ -17,12 +16,12 @@ $color3: $MediumSeaGreen;
 $color4: $whitesmoke;
 $color5: $MediumOrchid;
 $color6: $white;
-$color7: $gray;
 
 
 // Derivative colors
 // -------------------------
 $darker-color5:           darken($color5, 6.6667%) !default;
+$darker-color6:           darken($color6, 40%) !default;
 
 
 //Font information
