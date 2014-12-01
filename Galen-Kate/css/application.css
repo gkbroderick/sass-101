@@ -106,7 +106,7 @@ a {
   width: 100%; }
   @media (min-width: 30em) {
     .span_1_of_4 {
-      width: 23.8%; } }
+      width: 24.8%; } }
 
 /* clearing */
 .clearfix {
@@ -179,13 +179,11 @@ a {
 /* feature */
 .feature {
   text-align: center;
-  display: block;
   padding-bottom: 4.5em; }
 
 .feature__box {
   padding: 3%;
   color: #FFFFFF;
-  display: inline-block;
   font-size: 1em; }
   .feature__box h1 {
     font-size: 1.25 em;
