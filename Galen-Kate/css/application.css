@@ -45,7 +45,7 @@ body {
 button {
   background-color: #ba55d3;
   font-size: 1.25 em;
-  color: black; }
+  color: #FFFFFF; }
 
 img {
   display: block;
@@ -111,7 +111,7 @@ a {
 /* clearing */
 .clearfix {
   zoom: 1; }
-  .clearfix:before {
+  .clearfix:before, .clearfix:after {
     content: " ";
     display: block;
     overflow: hidden;
@@ -149,14 +149,14 @@ a {
   text-align: center;
   padding-bottom: 1.5em;
   text-transform: uppercase;
-  font-size: 1.25 em;
+  font-size: 1.25em;
   color: gray; }
 
 /* nav */
 .main-nav__item a {
   text-align: center;
   padding: 0.2em;
-  color: black;
+  color: #FFFFFF;
   font-size: 1.5em;
   border-radius: 0.3em; }
   .main-nav__item a:hover {
@@ -164,7 +164,7 @@ a {
 
 /* hero */
 .hero {
-  color: black;
+  color: #FFFFFF;
   text-align: center;
   padding: 5% 0;
   margin-bottom: 4.5em; }
@@ -184,7 +184,7 @@ a {
 
 .feature__box {
   padding: 3%;
-  color: black;
+  color: #FFFFFF;
   display: inline-block;
   font-size: 1em; }
   .feature__box h1 {
@@ -211,8 +211,7 @@ a {
 
 /* profile section */
 .profile {
-  color: gray;
-  padding-bottom: 1.5em; }
+  color: gray; }
   .profile figcaption {
     margin-top: 0.1875em;
     line-height: 1.5em;
@@ -223,6 +222,7 @@ a {
 
 /*footer */
 .citation {
+  background-color: whitesmoke;
   padding: 1.5em 0 4em 0;
   text-align: center;
   font-size: 0.8em; }
@@ -234,22 +234,22 @@ a {
   margin: 0.6em 0 -0.6em 0; }
 
 .windowIconFront {
-  fill: black; }
+  fill: #FFFFFF; }
   .windowIconFront:hover {
     fill: #ba55d3; }
 
 .windowIconRear {
-  fill: black; }
+  fill: #FFFFFF; }
   .windowIconRear:hover {
     fill: #87CEEB; }
 
 .arrowIcon-1 {
-  fill: black; }
+  fill: #FFFFFF; }
   .arrowIcon-1:hover {
     fill: #ba55d3; }
 
 .arrowIcon-2 {
-  fill: black; }
+  fill: #FFFFFF; }
   .arrowIcon-2:hover {
     fill: mediumseagreen; }
 
@@ -282,23 +282,23 @@ a {
 .main-nav {
   padding: 1.5% 0;
   display: -webkit-flex;
-  -webkit-flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -webkit-justify-content: space-around;
-  -webkit-align-items: baseline;
-  -webkit-align-content: center;
   display: flex;
+  -webkit-flex-direction: row;
   flex-direction: row;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-justify-content: space-around;
   justify-content: space-around;
+  -webkit-align-items: baseline;
   align-items: baseline;
+  -webkit-align-content: center;
   align-content: center; }
 
 .main-nav__item {
   padding: 1% 1.5%;
   -webkit-flex: 0, 1, auto;
-  -webkit-align-self: auto;
   flex: 0, 1, auto;
+  -webkit-align-self: auto;
   align-self: auto; }
 
 @font-face {
