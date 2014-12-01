@@ -1,0 +1,16 @@
+//Retina/High Resolution Mixins
+//include image url without _1x.jpg or _2x.jpg suffix
+@mixin img-1x2x($url) {
+  content: url('#{$url}_1x.jpg');
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    content: url('#{$url}_2x.jpg');
+  }
+}
+
+//image has no _1x.jpg suffix -- still omit the .jpg suffix
+@mixin img-2x-only($url) {
+  content: url('#{$url}.jpg');
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    content: url('#{$url}_2x.jpg');
+  }
+}
